@@ -27,3 +27,7 @@ Route::get('users', function () {
 Route::get('report', function () {
     return 'report';
 });
+
+Route::get('company', function () {
+    return 'company';
+});
