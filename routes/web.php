@@ -22,3 +22,8 @@ Route::get('about', function () {
 Route::get('users', function () {
     return 'users';
 });
+
+
+Route::get('report', function () {
+    return 'report';
+});
