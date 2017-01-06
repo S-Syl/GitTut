@@ -18,3 +18,7 @@ Route::get('/', function () {
 Route::get('about', function () {
     return 'About';
 });
+
+Route::get('users', function () {
+    return 'users';
+});
